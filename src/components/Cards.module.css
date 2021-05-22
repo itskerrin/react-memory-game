@@ -1,0 +1,9 @@
+.button {
+  border-style: none;
+}
+
+.grid {
+  display: grid;
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+}

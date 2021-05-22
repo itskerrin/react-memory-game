@@ -1,8 +1,10 @@
 import { useState } from 'react';
+import Header from './Header';
+import Container from './Container';
 
-const Game = () => {
+function Game() {
   const [score, setScore] = useState(0);
-  const [highScore, setHighScore] = useState(0);
+  const [highestScore, setHighestScore] = useState(0);
   const [cardArray, setCardArray] = useState([]);
 
   // score, card and reset handlers
@@ -10,8 +12,8 @@ const Game = () => {
     setScore((previousScore) => previousScore + 1);
   };
 
-  const highScoreHandler = () => {
-    setHighScore(score);
+  const highestScoreHandler = () => {
+    setHighestScore(score);
   };
 
   const cardArrayHandler = (cardId) => {
@@ -23,7 +25,27 @@ const Game = () => {
     setCardArray([]);
   };
 
-  return <div></div>;
-};
+  // check if card has already been clicked, if not, increase the score
+  const gameHandler = (cardId) => {
+    if (!cardArray.includes(cardId)) {
+      cardArrayHandler(cardId);
+      scoreHandler();
+    } else {
+      highestScoreHandler();
+      resetGameHandler();
+    }
+  };
+
+  return (
+    <div>
+      <Header score={score} highestScore={highestScore} />
+      <Container
+        gameHandler={gameHandler}
+        score={score}
+        highestScore={highestScore}
+      />
+    </div>
+  );
+}
 
 export default Game;
