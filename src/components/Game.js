@@ -38,7 +38,11 @@ function Game() {
 
   return (
     <div>
-      <Header score={score} highestScore={highestScore} />
+      <Header
+        score={score}
+        highestScore={highestScore}
+        resetGame={resetGameHandler}
+      />
       <Container
         gameHandler={gameHandler}
         score={score}

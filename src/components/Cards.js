@@ -7,11 +7,11 @@ function Cards(props) {
   } = props;
 
   return (
-    <div className={styles.grid}>
+    <div>
       <button className={styles.button} onClick={gameHandler.bind(this, title)}>
         <figure>
           <img src={src} alt={title} />
-          <figcaption>{title}</figcaption>
+          <figcaption className={styles.caption}>{title}</figcaption>
         </figure>
       </button>
     </div>

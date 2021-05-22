@@ -1,9 +1,10 @@
 * {
   background-color: #1d3557;
-  font-family: sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
   color: white;
 }
 
 .App {
   text-align: center;
+  padding: 1rem;
 }
