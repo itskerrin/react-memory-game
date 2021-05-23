@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/react-memory-game/static/css/main.89302f51.chunk.css",
+    "main.js": "/react-memory-game/static/js/main.693a624e.chunk.js",
+    "main.js.map": "/react-memory-game/static/js/main.693a624e.chunk.js.map",
+    "runtime-main.js": "/react-memory-game/static/js/runtime-main.1e3291d7.js",
+    "runtime-main.js.map": "/react-memory-game/static/js/runtime-main.1e3291d7.js.map",
+    "static/js/2.5c0ba8fb.chunk.js": "/react-memory-game/static/js/2.5c0ba8fb.chunk.js",
+    "static/js/2.5c0ba8fb.chunk.js.map": "/react-memory-game/static/js/2.5c0ba8fb.chunk.js.map",
+    "index.html": "/react-memory-game/index.html",
+    "static/css/main.89302f51.chunk.css.map": "/react-memory-game/static/css/main.89302f51.chunk.css.map",
+    "static/js/2.5c0ba8fb.chunk.js.LICENSE.txt": "/react-memory-game/static/js/2.5c0ba8fb.chunk.js.LICENSE.txt",
+    "static/media/blue-card.f8167691.jpg": "/react-memory-game/static/media/blue-card.f8167691.jpg",
+    "static/media/darkblue-card.73e7036d.jpg": "/react-memory-game/static/media/darkblue-card.73e7036d.jpg",
+    "static/media/limegreen-card.0a4cc3f0.jpg": "/react-memory-game/static/media/limegreen-card.0a4cc3f0.jpg",
+    "static/media/magenta-card.dcc6b3fe.jpg": "/react-memory-game/static/media/magenta-card.dcc6b3fe.jpg",
+    "static/media/orange-card.36a8fd05.jpg": "/react-memory-game/static/media/orange-card.36a8fd05.jpg",
+    "static/media/pink-card.2f669916.jpg": "/react-memory-game/static/media/pink-card.2f669916.jpg",
+    "static/media/purple-card.e9ff4499.jpg": "/react-memory-game/static/media/purple-card.e9ff4499.jpg",
+    "static/media/red-card.4f6ac44a.jpg": "/react-memory-game/static/media/red-card.4f6ac44a.jpg",
+    "static/media/seagreen-card.9bf67421.jpg": "/react-memory-game/static/media/seagreen-card.9bf67421.jpg",
+    "static/media/yellow-card.7687c9c7.jpg": "/react-memory-game/static/media/yellow-card.7687c9c7.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1e3291d7.js",
+    "static/js/2.5c0ba8fb.chunk.js",
+    "static/css/main.89302f51.chunk.css",
+    "static/js/main.693a624e.chunk.js"
+  ]
+}
